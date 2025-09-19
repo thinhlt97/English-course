@@ -10,8 +10,8 @@ export default function HeroSection() {
             Học tiếng Anh giao tiếp tự tin chỉ trong 3 tháng.  
             Giáo viên bản ngữ – Lộ trình khoa học – Cam kết đầu ra.
           </p>
-          <button className="btn btn-primary">Đăng ký ngay</button>
-            <button className="btn btn-secondary">Xem thêm</button>
+          <a href="#cta-form" className="btn btn-primary">Đăng ký ngay</a>
+    
         </div>
         <div className="hero-image">
           <img

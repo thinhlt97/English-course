@@ -38,7 +38,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section ref={ref} className={`pricing fade-in ${isVisible ? 'fade-in-active' : ''}`}>
+    <section id = 'pricing' ref={ref} className={`pricing fade-in ${isVisible ? 'fade-in-active' : ''}`}>
       <h2 className="pricing-title">Chọn gói học phù hợp với bạn</h2>
       <div className="pricing-grid">
         {plans.map((plan, index) => (

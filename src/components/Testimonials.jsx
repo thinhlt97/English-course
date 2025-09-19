@@ -29,7 +29,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section ref={ref} className={`testimonials fade-in ${isVisible ? 'fade-in-active' : ''}`}>
+    <section id = 'testimonials' ref={ref} className={`testimonials fade-in ${isVisible ? 'fade-in-active' : ''}`}>
       <h2 className="testimonials-title">Học viên nói gì về khóa học?</h2>
       <div className="testimonials-grid">
         {testimonials.map((t, index) => (

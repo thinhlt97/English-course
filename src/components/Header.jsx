@@ -28,12 +28,12 @@ export default function Header() {
             <li><a href="#course">Khóa học</a></li>
             <li><a href="#testimonials">Học viên nói gì</a></li>
             <li><a href="#pricing">Giá</a></li>
-            <li><a href="#contact">Liên hệ</a></li>
+            <li><a href="#cta-form">Liên hệ</a></li>
           </ul>
         </nav>
 
         {/* Nút CTA */}
-        <a href="#pricing" className="cta-btn">Đăng ký ngay</a>
+        <a href="#cta-form" className="cta-btn">Đăng ký ngay</a>
       </div>
     </header>
   );

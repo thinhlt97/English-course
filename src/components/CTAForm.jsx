@@ -21,7 +21,7 @@ const CTAForm = () => {
   };
 
   return (
-    <section className="cta-section">
+    <section id = 'cta-form' className="cta-section">
       <div className="cta-content">
         <div className="cta-text">
           <h2>Đăng ký nhận tư vấn miễn phí</h2>

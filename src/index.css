@@ -104,3 +104,9 @@ h1, h2, h3, h4 {
 .btn-secondary:active {
   transform: scale(0.95);
 }
+html {
+  scroll-behavior: smooth;
+}
+#cta-form {
+  scroll-margin-top: 30vh; /* đẩy điểm scroll lên, để section nằm giữa màn hình */
+}

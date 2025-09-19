@@ -32,7 +32,7 @@ const CourseFeatures = () => {
   ];
 
   return (
-    <section ref={ref}
+    <section id = 'course' ref={ref}
       className={`hero fade-in ${isVisible ? 'fade-in-active' : ''}`}>
       <h2 className="features-title">Tính năng nổi bật của khóa học</h2>
       <div className="features-grid">
