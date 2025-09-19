@@ -15,8 +15,7 @@ export default function HeroSection() {
         </div>
         <div className="hero-image">
           <img
-            src="https://images.unsplash.com/photo-1584697964158-3cb7bbde7b5b?auto=format&fit=crop&w=900&q=80"
-            alt="English course"
+            src="/images/hero-new.jpg" alt="Khóa học tiếng Anh"
           />
         </div>
       </div>
