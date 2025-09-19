@@ -1,0 +1,106 @@
+/* src/index.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+}
+
+/* Responsive grid utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Buttons global style */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #005fcc;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Nút mặc định */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+/* Nút chính */
+.btn-primary {
+  background-color: red;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 119, 255, 0.3);
+}
+
+/* Hover: phóng to + đổi màu */
+.btn-primary:hover {
+  background-color: red;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 95, 204, 0.4);
+}
+
+/* Active (click): thu nhỏ nhẹ */
+.btn-primary:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 8px rgba(0, 95, 204, 0.4);
+}
+
+/* Nút phụ */
+.btn-secondary {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.03);
+}
+
+.btn-secondary:active {
+  transform: scale(0.95);
+}
